@@ -33,6 +33,17 @@ public class Main {
             e++;
             f2=f2*e;
         }
+        n++;
         System.out.println(n2+"! = "+f2);
+        //Завдання 5:
+        int sum=0;
+        for(int i=1; i<=24; i++){
+        for(int j=1; j<=60;j++){
+            if(i/10==j%10&&i%10==j/10){
+                sum++;
+            }
+        }
+        }
+        System.out.println("К-сть співпадінь: "+sum);
     }
 }
