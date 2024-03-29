@@ -46,7 +46,7 @@ public class Main {
         }
         System.out.println("К-сть співпадінь: "+sum);
         //Завдання 6:
-        int sum=0;
+        int sum1=0;
         for(int i=000001; i<=999999; i++){
             int p1=i/1000;
             int p2=i%1000;
@@ -57,8 +57,8 @@ public class Main {
             int n5=(p2/10)%10;
             int n6=p2%10;
             if(n1+n2+n3==n4+n5+n6){
-                sum++;
+                sum1++;
             }
-        }System.out.println(sum);
+        }System.out.println(sum1);
     }
 }
