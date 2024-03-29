@@ -51,12 +51,12 @@ public class Main {
             int p1=i/1000;
             int p2=i%1000;
             int n1=p1/100;
-            int n2=(p1/10)%10;
+            int n22=(p1/10)%10;
             int n3=p1%10;
             int n4=p2/100;
             int n5=(p2/10)%10;
             int n6=p2%10;
-            if(n1+n2+n3==n4+n5+n6){
+            if(n1+n22+n3==n4+n5+n6){
                 sum1++;
             }
         }System.out.println(sum1);
